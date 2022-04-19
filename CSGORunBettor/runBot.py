@@ -19,9 +19,11 @@ elem[1].send_keys(Keys.RETURN)
 codeField = driver.find_element_by_id("twofactorcode_entry")
 codeField.send_keys(getCode())
 codeField.send_keys(Keys.RETURN)"""
-elem[0].send_keys("niyero5810")
+login = ""
+password = ""
+elem[0].send_keys(login)
 elem[0].send_keys(Keys.RETURN)
-elem[1].send_keys("8YccD8BbnKzucCb")
+elem[1].send_keys(password)
 elem[1].send_keys(Keys.RETURN)
 #codeField = driver.find_element_by_id("twofactorcode_entry")
 #code = input("Code: ")
